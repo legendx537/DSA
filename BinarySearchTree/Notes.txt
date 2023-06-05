@@ -1,0 +1,15 @@
+Binary Search Tree :-
+  in the left subtree the value of the node is less than or equal to parent's node.
+  in the right subtree the value of the node is greater than there parent's node.
+
+Binary Search Tree :-
+ -It perform faster insertion and deletion than Binary tree.
+ -It perform faster search than Binary Tree.
+
+Common Operation On Binary Search Tree :-
+ -Creation of BST
+ -Insertion of a node
+ -Deletion of a node
+ -Search for a value
+ -Traverse all nodes
+ -Deletion of BST
