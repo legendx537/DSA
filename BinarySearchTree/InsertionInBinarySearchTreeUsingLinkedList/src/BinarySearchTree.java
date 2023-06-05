@@ -22,11 +22,8 @@ public class BinarySearchTree {
     }
 
     public void insert(int value) {
-        insert(root,value);
+        root = insert(root,value);
     }
 
-    // If the root is null , then insert the new Node at the root position
-    // Otherwise compare with the parent's node
-    // if the value is less or Equal of currentNode's left , then insert the node at left
-    // Otherwise insert the node in the currentNode's right
 }
+

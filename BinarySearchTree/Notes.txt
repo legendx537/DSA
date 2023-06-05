@@ -13,3 +13,11 @@ Common Operation On Binary Search Tree :-
  -Search for a value
  -Traverse all nodes
  -Deletion of BST
+
+Binary Search Tree - Traversal
+ -Depth for search
+  *PreOrder Traversal
+  *InOrder Traversal
+  *PostOrder Traversal
+ -Breadth for search
+  *LevelOrder Traversal
