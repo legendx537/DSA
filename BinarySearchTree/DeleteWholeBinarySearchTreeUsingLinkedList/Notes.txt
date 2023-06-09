@@ -1,0 +1,3 @@
+For deleting whole binary search tree :-
+  we just have to set the root node to null
+  rest of the nodes will be collected by garbage collector.
