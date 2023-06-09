@@ -1,0 +1,21 @@
+There can be three cases when we delete a node :-
+
+  1 Node is leaf node
+  2 Node has one child
+  3 Node has two child
+
+  for 1 :-
+   we have to search the node
+   then directly we can delete the node means set it to null
+
+  for 2 :-
+    we have to search the node with one child
+    then we have to replace parent node value with the child node value
+    then we have to delete the child node
+
+  for 3 :-
+    we have to find the node to be deleted
+    then we have to find the successor of that node (Successor is the smallest node in the right subtree) :-
+    (Remember :- minimum node of the right subtree will be present in the left subtree of  right subtree we are searching for)
+    we need to delete the value of node to be deleted with the successor value
+    then we have to delete the successor by the delete method on the right subtree with the successor node value
