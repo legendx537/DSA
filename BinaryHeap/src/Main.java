@@ -10,5 +10,6 @@ public class Main {
         bH.levelOrder();
         bH.extractHeadOfBP("MIN");
         bH.levelOrder();
+        bH.deleteBH();
     }
 }

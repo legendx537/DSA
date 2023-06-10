@@ -123,4 +123,10 @@ public class BinaryHeap {
             heapifyTopToBottom(1, heapType);
         }
     }
+
+    // delete Binary Heap
+    public void deleteBH() {
+        arr = null;
+        System.out.println("Binary Heap is successfully deleted");
+    }
 }
