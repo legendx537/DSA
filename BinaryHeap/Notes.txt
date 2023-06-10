@@ -35,3 +35,4 @@ A Binary Heap is binary Tree with the following properties :-
       More over we have to apply heapifyFromTopToBottom for extracting from a Binary heap.
 
 
+
