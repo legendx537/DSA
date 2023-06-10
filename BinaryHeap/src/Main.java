@@ -8,5 +8,7 @@ public class Main {
         System.out.println(bH.peek());
         System.out.println(bH.sizeOfBH());
         bH.levelOrder();
+        bH.extractHeadOfBP("MIN");
+        bH.levelOrder();
     }
 }

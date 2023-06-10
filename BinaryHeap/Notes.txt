@@ -30,3 +30,8 @@ A Binary Heap is binary Tree with the following properties :-
 
      So for the binary heap we will be only implementing the level Order Traversal.
 
+   Extract :-
+      We can only Extract the Top node from the heap
+      More over we have to apply heapifyFromTopToBottom for extracting from a Binary heap.
+
+
