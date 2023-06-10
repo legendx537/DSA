@@ -3,5 +3,6 @@ public class Main {
         BinaryHeap bH = new BinaryHeap(5);
         bH.peek();
         System.out.println(bH.sizeOfBH());
+        bH.levelOrder();
     }
 }

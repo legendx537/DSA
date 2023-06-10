@@ -27,4 +27,11 @@ public class BinaryHeap {
     public int sizeOfBH() {
         return sizeOfTree;
     }
+
+    public void levelOrder() {
+        for (int i=1; i<=sizeOfTree; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println("\n");
+    }
 }

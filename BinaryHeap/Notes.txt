@@ -20,3 +20,13 @@ A Binary Heap is binary Tree with the following properties :-
 
     * Array Implementation
     * Reference or point Implementation
+
+
+  Traversals :-
+     PreOrder traversal of binary heap is same as Preorder traversal of Binary tree using array
+     InOrder traversal of binary heap is same as InOrder traversal of Binary tree using array
+     PostOrder traversal of binary heap is same as PostOrder traversal of Binary tree using array
+     LevelOrder traversal of binary heap is same as LevelOrder traversal of Binary tree using array
+
+     So for the binary heap we will be only implementing the level Order Traversal.
+
