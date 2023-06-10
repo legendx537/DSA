@@ -34,4 +34,33 @@ public class BinaryHeap {
         }
         System.out.println("\n");
     }
+
+    public void heapifyBottomToTop(int index,String heapType) {
+        int parent = index / 2;
+        if (index <= 1) {
+            return;
+        }
+        if (heapType.equals("MIN")) {
+            if (arr[index] < arr[parent]) {
+                int temp = arr[index];
+                arr[index] = arr[parent];
+                arr[parent] = temp;
+            }
+        } else if (heapType.equals("MAX")){
+               if (arr[index] > arr[parent]) {
+                   int temp = arr[index];
+                   arr[index] = arr[parent];
+                   arr[parent] = temp;
+               }
+           }
+           heapifyBottomToTop(parent, heapType);
+    }
+
+    public void insert(int value,String typeHeap) {
+        arr[sizeOfTree+1] = value;
+        sizeOfTree++;
+        heapifyBottomToTop(sizeOfTree, typeHeap);
+        System.out.println("The value has been inserted successfully");
+    }
+
 }
