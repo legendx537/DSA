@@ -23,4 +23,8 @@ public class BinaryHeap {
         }
         return arr[1];
     }
+
+    public int sizeOfBH() {
+        return sizeOfTree;
+    }
 }
