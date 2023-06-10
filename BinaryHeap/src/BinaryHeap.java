@@ -7,4 +7,20 @@ public class BinaryHeap {
         this.sizeOfTree = 0;
         System.out.println("Binary heap is Created");
     }
+
+    public boolean isEmpty() {
+        if (sizeOfTree == 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public Integer peek() {
+        if (isEmpty()) {
+            System.out.println("Binary heap is empty");
+            return null;
+        }
+        return arr[1];
+    }
 }
