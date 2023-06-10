@@ -1,0 +1,22 @@
+A Binary Heap is binary Tree with the following properties :-
+
+  * A binary Heap is either Max Binary Heap  or Min Binary heap
+  * Min Binary Heap :- root node has the minimum value
+  * Max Binary heap :- root node has the maximum value
+  * It is complete binary Tree. all teh level are filled and the last level has nodes as left as possible.
+
+
+  Common Operation in Binary Heap :-
+
+    * Creation of a binary Heap
+    * Peek top of Binary Heap
+    * Extract Min / Extract Max
+    * Traversal of Binary Heap
+    *  Size of Binary Heap
+    * Insert value in Binary Heap
+    * Delete the entire binary Heap
+
+ For Implementing Binary Heap , we have
+
+    * Array Implementation
+    * Reference or point Implementation
