@@ -59,7 +59,7 @@ Sorting Algorithm can be divided into two categories :-
     - Space efficient
     - Time efficient
 
-  Bubble Sort :-
+  1. Bubble Sort :-
     - It is also known as sinking sort
     - we repeatedly compare the adjacent terms and swap them if they are wrong order.
 
@@ -70,3 +70,27 @@ Sorting Algorithm can be divided into two categories :-
 
   When to avoid Bubble sort :-
     - Average time complexity is poor.
+
+  2. Selection Sort :-
+    - we repeatedly find the minimum element and move it to the sorted part
+      to make the unsorted part sorted.
+
+    When to use Selection sort :-
+     - When we have insufficient memory.
+     - Easy to implement.
+
+    When to avoid using Selection sort :-
+     - When time is a concern.
+
+  3. Insertion Sort :-
+       - we divide the array two parts ( sorted array and unsorted array )
+       - then we take the first element from the array and find its correct position
+       -  we keep on doing this until the unsorted array is empty
+
+     when to use insertion sort :-
+       - when we have insufficient space
+       - Easy to implement
+       - when we have continuous inflow of number and we want to keep them sorted
+
+     when not to use them :-
+       - when time is a concern
