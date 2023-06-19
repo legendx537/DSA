@@ -94,3 +94,18 @@ Sorting Algorithm can be divided into two categories :-
 
      when not to use them :-
        - when time is a concern
+
+  4. Bucket Sort :-
+       - Create Bucket and distribute element of array into buckets
+       - Sort buckets individually
+       - Merge Bucket after sorting
+
+       - Number of buckets = Round(sqrt(number of array element))
+       - Appropriate Bucket = ceil(Value * number of bucket/ maxValue)
+
+     when to use bucket sort :-
+       - when input is uniformly distributed over the range
+
+     when not to use bucket sort :-
+       - when space is a concern
+
