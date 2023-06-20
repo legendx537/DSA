@@ -122,4 +122,17 @@ Sorting Algorithm can be divided into two categories :-
      when not to use merge sort :-
        - when space is a concern
 
+  6. Quick Sort :-
+       - It is a divide and conquer algorithm
+       - Find the pivot number and make sure all the less than pivot are on left
+         and all the number greater than the pivot are on the right of the pivot
+       - Unlike merge sort it does not require extra space
+
+     when to use quick sort :-
+       -  when the expected time complexity is O(NlogN)
+
+     when to avoid using quick sort :-
+       - when space is a concern ( due to recursive calls )
+       - when you need a stable sort
+
              

@@ -21,8 +21,12 @@ public class Main {
 //        System.out.println();
 //        bs.printArray(arr);
 
-        System.out.println("Merge Sort :-");
-        MergeSort.mergeSort(arr,0,arr.length-1);
-        MergeSort.printArray(arr);
+//        System.out.println("Merge Sort :-");
+//        MergeSort.mergeSort(arr,0,arr.length-1);
+//        MergeSort.printArray(arr);
+
+        System.out.println("Quick Sort :- ");
+        QuickSort.quickSort(arr,0, arr.length-1);
+        QuickSort.printArray(arr);
     }
 }
