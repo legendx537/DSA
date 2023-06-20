@@ -14,7 +14,7 @@ public class MergeSort {
         rightTemp[right-middle] = Integer.MAX_VALUE;
 
         int i = 0 , j = 0;
-        for (int k = left; k < right; k++) {
+        for (int k = left; k <= right; k++) {
             if (leftTemp[i] < rightTemp[j]) {
                 A[k] = leftTemp[i++];
             } else {
