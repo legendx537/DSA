@@ -14,11 +14,15 @@ public class Main {
 //      InsertionSort.insertionSort(arr);
 //      InsertionSort.printArray(arr);
 
-        System.out.println("Bucket Sort :- ");
-        BucketSort bs = new BucketSort(arr);
-        bs.printArray(arr);
-        bs.bucketSort(arr);
-        System.out.println();
-        bs.printArray(arr);
+//        System.out.println("Bucket Sort :- ");
+//        BucketSort bs = new BucketSort(arr);
+//        bs.printArray(arr);
+//        bs.bucketSort(arr);
+//        System.out.println();
+//        bs.printArray(arr);
+
+        System.out.println("Merge Sort :-");
+        MergeSort.mergeSort(arr,0,arr.length-1);
+        MergeSort.printArray(arr);
     }
 }

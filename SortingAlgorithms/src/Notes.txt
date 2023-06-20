@@ -109,3 +109,17 @@ Sorting Algorithm can be divided into two categories :-
      when not to use bucket sort :-
        - when space is a concern
 
+  5. Merge Sort :-
+       - Merge sort is a divide and conquer algorithm
+       - Divide the input array into two half and keep on halving recursively until they become too
+         short that we can not divide them further
+       - Merge Half by sorting them
+
+     when to use merge sort :-
+       - when we need stable sort
+       - when average time complexity is expected is O(NlogN)
+
+     when not to use merge sort :-
+       - when space is a concern
+
+             
