@@ -1,0 +1,6 @@
+In this Module, we will be looking at different types of searches :-
+
+  1. Linear search :-
+       - Loop through the array and check if the current element is equal to the value
+       - If the value is equal then return the index at which the element is found
+       - return -1 if the element is not found
