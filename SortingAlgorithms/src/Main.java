@@ -25,8 +25,15 @@ public class Main {
 //        MergeSort.mergeSort(arr,0,arr.length-1);
 //        MergeSort.printArray(arr);
 
-        System.out.println("Quick Sort :- ");
-        QuickSort.quickSort(arr,0, arr.length-1);
-        QuickSort.printArray(arr);
+//        System.out.println("Quick Sort :- ");
+//        QuickSort.quickSort(arr,0, arr.length-1);
+//        QuickSort.printArray(arr);
+
+        System.out.println("Heap sort :- ");
+        HeapSort  hs = new HeapSort(arr);
+        hs.heapSort();
+        System.out.println();
+        System.out.println("Array After Sorting :-");
+        hs.printArray(arr);
     }
 }

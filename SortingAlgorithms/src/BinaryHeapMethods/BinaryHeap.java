@@ -1,4 +1,5 @@
-import java.util.Objects;
+package BinaryHeapMethods;
+
 public class BinaryHeap {
     int[] arr;
     int sizeOfTree;
@@ -112,14 +113,16 @@ public class BinaryHeap {
         heapifyTopToBottom(swapChild, heapType);
     }
 
-    public void extractHeadOfBP(String heapType) {
+    public Integer extractHeadOfBP(String heapType) {
         if (isEmpty()) {
             System.out.println("Binary Heap is empty can not extract");
-            return;
+            return null;
         } else {
+            int extractedValue = arr[1];
             arr[1] = arr[sizeOfTree];
             sizeOfTree--;
             heapifyTopToBottom(1, heapType);
+            return extractedValue;
         }
     }
 

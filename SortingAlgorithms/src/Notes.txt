@@ -135,4 +135,10 @@ Sorting Algorithm can be divided into two categories :-
        - when space is a concern ( due to recursive calls )
        - when you need a stable sort
 
+  7. Heap Sort :-
+       - Insert the data from binary heap tree
+       - Extract the data from binary heap tree
+       - It is best suited with array but it does not work for linkedList
+
+
              
