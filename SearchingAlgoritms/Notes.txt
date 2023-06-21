@@ -4,3 +4,15 @@ In this Module, we will be looking at different types of searches :-
        - Loop through the array and check if the current element is equal to the value
        - If the value is equal then return the index at which the element is found
        - return -1 if the element is not found
+
+  2. Binary Search :-
+       - Binary search is much faster than the linear search.
+       - Half of the remaining element can be eliminated at a time, instead of eliminating them one by one.
+       - Binary search works on sorted array only.
+
+       - we create two pointer left at the start of the array and right at the end of the array
+       - Based on left and write pointer , we calculate middle pointer
+       - if the middle is equal to the value , then we return that index;
+       - if the middle is greater than the value then we move the right pointer down
+       - if the middle pointer is less than the value then move the left pointer up.
+       - if the value is never found then we return -1
