@@ -8,5 +8,7 @@ public class Main {
       System.out.println("Binary Search :- ");
       int[] arr1 = {2, 3, 4, 5, 6, 8, 10};
       Searching.binarySearch(arr1,8);
+
+
     }
 }

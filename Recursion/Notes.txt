@@ -1,0 +1,45 @@
+Recursion :- a way of solving problem by having a function call itself.
+  - performing the same operation multiple with different inputs
+  - in every step we try smaller input to make the problem smaller
+  - Base Condition is needed to stop the recursion, otherwise infinite loop will occur.
+
+Why we need recursion :-
+ * Recursion is important part of programming languages and It helps to break down large problem into smaller
+   ones and easier to use.
+
+ * When to use recursion (when you find keywords like) :-
+   - If you can divide the problem into similar sub problem
+   - Design an algorithm to compute nth.
+   - write code to list the n.
+   - Implement a method to compute all
+   - Best way is practice
+
+ * The prominent usage of recursion in data structure like trees and graphs.
+
+ * Asked in interviews.
+
+ * used many algorithms (divide and conquer, greedy, dynamic programming)
+
+Logic Behind Recursion :-
+  1. A method call itself.
+  2. Exit from infinite loop.
+
+When to use recursion :-
+  - when we can break the problem into sub problem of similar type
+  - when we are fine with the extra overhead (time and space both) tha comes along with recursion.
+  - when we need a quick working solution instead of efficient one.
+  - when traverse a tree
+  - when use memoization in dynamic programming.
+
+When not to use recursion :-
+  - when time and space is a concern.
+  - Recursion uses more memory , if we use embedded memory. An application that takes more
+    memory in phone is not efficient.
+  - recursion can be slow
+
+How to write recursion int 3 simple steps :-
+  1. Identify the recursive condition
+  2. Identify the base case
+  3. Identify the Unintentional case :- the constraints. If the value is found beyond the constraint
+     there is possibility that we might not reach our base case , in that case we will be stuck in infinite loop,
+     so it is better to handle unintentional cases as well
