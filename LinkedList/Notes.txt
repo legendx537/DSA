@@ -1,0 +1,66 @@
+Linked List: -
+
+A linked list is a data structure that consists of a sequence of nodes, where each node contains a value and a reference (or link) to the next node in the sequence. Unlike arrays, linked lists do not require contiguous memory allocation.
+Instead, each node can be located anywhere in memory, and they are linked together by storing the address of the next node in the current node's reference field.
+
+========================================================================================================================================================================
+
+LinkedList vs Arrays :-
+
+1. Memory Allocation: Arrays require contiguous memory allocation, meaning the elements are stored in adjacent memory locations. On the other hand, LinkedList does not require contiguous memory allocation, as each element (node) can be located anywhere in memory.
+2. Size: Arrays have a fixed size, determined at the time of declaration, and cannot be easily resized. In contrast, LinkedLists can dynamically grow or shrink as elements are added or removed.
+3. Insertion and Deletion: Insertion and deletion operations can be more efficient in LinkedLists compared to Arrays. In LinkedLists, adding or removing elements only requires updating the references in adjacent nodes. In Arrays, inserting or deleting an element may require shifting all subsequent elements to accommodate the change.
+4. Random Access: Arrays allow for direct access to elements using their index, making random access operations efficient. LinkedLists, on the other hand, do not provide direct index-based access. To access an element in a LinkedList, sequential traversal from the head or tail is required.
+5. Memory Overhead: LinkedLists require additional memory to store the references (links) between nodes, while Arrays only require memory for the elements themselves. This can result in higher memory overhead for LinkedLists.
+In summary, Arrays are suitable for scenarios where random access and fixed-size collections are required, while LinkedLists are preferable when frequent insertions and deletions are expected, or when the size of the collection needs to change dynamically.
+
+========================================================================================================================================================================
+
+There are several types of Linked List, we will be learning only 4 types of LinkedList: -
+
+Singly LinkedList
+Circular Singly LinkedList
+Double LinkedList
+Circular Double LinkedList
+
+========================================================================================================================================================================
+In Java, a LinkedList is implemented as a collection of nodes, where each node contains the element value and a reference to the next node in the sequence.
+Let's explore how a LinkedList is represented in memory in Java.
+Consider the following example
+
+LinkedList<String> linkedList = new LinkedList<>();
+linkedList.add("Apple");
+linkedList.add("Banana");
+linkedList.add("Cherry");
+
+In memory, the LinkedList will be structured as follows:
+
+LinkedList:
+    ┌─────────┐      ┌─────────┐      ┌─────────┐
+    │    o───────> │    o───────> │    o───────> │
+    │ "Apple" │      │ "Banana" │      │ "Cherry" │
+    └─────────┘      └─────────┘      └─────────┘
+
+Here, each node consists of two parts: the element value and the reference to the next node.
+The arrow indicates the link/reference between nodes.
+The LinkedList object itself contains a reference to the first node, known as the "head."
+Additionally, the last node's reference points to null, indicating the end of the list.
+When we add elements to the LinkedList, new nodes are created dynamically in memory to store the elements, and the references are updated accordingly.
+It's important to note that LinkedLists in Java do not have a fixed size, and the elements can be inserted or removed dynamically, allowing the list to grow or shrink as needed.
+
+========================================================================================================================================================================
+
+Creation of Singly Linked List: -
+
+1. Create a head and tail, initialize with null
+2. Create a blank node and assign a value to it and reference to null
+3. Link head and tail with this node
+
+========================================================================================================================================================================
+
+Insertion in a SinglyLinkedList: -
+
+1. At the beginning of the Linked List
+2. After a node in the middle of the Linked List
+3. At the end of the Linked List
+
