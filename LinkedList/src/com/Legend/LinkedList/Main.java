@@ -6,5 +6,7 @@ public class Main {
        SinglyLinkedList sLL = new SinglyLinkedList();
        sLL.createSinglyLinkedList(5);
        System.out.println(sLL.head.data);
+       sLL.insertInALinkedList(7,0);
+       System.out.println(sLL.head.data);
     }
 }
