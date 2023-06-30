@@ -37,5 +37,22 @@ public class SinglyLinkedList {
             tempNode.next = node;
             node.next = nextNode;
         }
+        size++;
+    }
+
+    public void traversalSinglyLinkedList() {
+        if (head == null) {
+            System.out.println("SLL does not exist");
+        } else {
+            Node tempNode = head;
+            for (int i=0; i<size; i++) {
+                System.out.print(tempNode.data);
+                if (i != size-1) {
+                    System.out.print("->");
+                }
+                tempNode = tempNode.next;
+            }
+        }
+        System.out.println("\n");
     }
 }
