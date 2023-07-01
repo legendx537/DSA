@@ -55,4 +55,19 @@ public class SinglyLinkedList {
         }
         System.out.println("\n");
     }
+
+    public boolean searchSinglyLinkedList(int nodeValue) {
+        if (head != null) {
+            Node tempNode = head;
+            for (int i=0; i<size; i++) {
+                if (tempNode.data == nodeValue) {
+                    System.out.println("The value found at position -> " + i);
+                    return true;
+                }
+                tempNode = tempNode.next;
+            }
+        }
+        System.out.println("Value Not found in the Linked List");
+        return false;
+    }
 }

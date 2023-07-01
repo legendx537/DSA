@@ -12,5 +12,6 @@ public class Main {
        sLL.insertInALinkedList(11,6);
 
        sLL.traversalSinglyLinkedList();
+       sLL.searchSinglyLinkedList(9);
     }
 }
