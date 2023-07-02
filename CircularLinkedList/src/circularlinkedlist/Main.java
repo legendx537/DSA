@@ -12,6 +12,7 @@ public class Main {
 
       csll.traversalOFCSLL();
 
+      csll.searchNode(7);
 
     }
 }

@@ -51,9 +51,25 @@ public class CircularSinglyLinkedList {
                 }
                 tempNode = tempNode.next;
             }
+            System.out.println("\n");
         } else {
             System.out.println("The CSLL does not exist");
         }
+    }
+
+    public boolean searchNode(int nodeValue) {
+        if (head != null) {
+            Node tempNode = head;
+            for (int i=0; i<size; i++) {
+                if (tempNode.value == nodeValue) {
+                    System.out.println("Node found at the Position -> " + i);
+                    return true;
+                }
+                tempNode = tempNode.next;
+            }
+        }
+        System.out.println("Node not Found");
+        return false;
     }
 
 }
