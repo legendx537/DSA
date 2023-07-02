@@ -14,5 +14,9 @@ public class Main {
 
       csll.searchNode(7);
 
+      csll.traversalOFCSLL();
+      csll.deletionOfANode(0);
+      csll.traversalOFCSLL();
+
     }
 }
