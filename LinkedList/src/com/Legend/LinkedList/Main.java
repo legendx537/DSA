@@ -13,5 +13,9 @@ public class Main {
 
        sLL.traversalSinglyLinkedList();
        sLL.searchSinglyLinkedList(9);
+
+       sLL.traversalSinglyLinkedList();
+       sLL.deletionOfNode(3);
+       sLL.traversalSinglyLinkedList();
     }
 }
