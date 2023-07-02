@@ -108,4 +108,15 @@ public class CircularSinglyLinkedList {
         }
     }
 
+    public void deleteWholeCSLL() {
+        if (head == null) {
+            System.out.println("The CSLL Does not exist");
+        } else {
+            head = null;
+            tail.next = null;
+            tail = null;
+            System.out.println("The CSLL is deleted successfully");
+        }
+    }
+
 }

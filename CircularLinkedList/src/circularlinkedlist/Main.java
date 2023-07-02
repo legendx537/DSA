@@ -18,5 +18,9 @@ public class Main {
       csll.deletionOfANode(0);
       csll.traversalOFCSLL();
 
+      csll.traversalOFCSLL();
+      csll.deleteWholeCSLL();
+      csll.traversalOFCSLL();
+
     }
 }
