@@ -101,4 +101,9 @@ public class SinglyLinkedList {
             size--;
         }
     }
+
+    public void deleteWholeSLL() {
+        head = tail = null;
+        System.out.println("The SLL is deleted Completely");
+    }
 }

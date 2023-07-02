@@ -17,5 +17,9 @@ public class Main {
        sLL.traversalSinglyLinkedList();
        sLL.deletionOfNode(3);
        sLL.traversalSinglyLinkedList();
+
+       sLL.traversalSinglyLinkedList();
+       sLL.deleteWholeSLL();
+       sLL.traversalSinglyLinkedList();
     }
 }
