@@ -10,6 +10,8 @@ public class Main {
       csll.insertCSLL(9,4);
       System.out.println(csll.head.value);
 
+      csll.traversalOFCSLL();
+
 
     }
 }
